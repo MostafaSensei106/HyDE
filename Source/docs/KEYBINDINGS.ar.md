@@ -27,13 +27,13 @@ Multi-language KEYBINDINGS support
 <br>
 
 <!-- <a href=#hyde-keybindings><kbd> <br> HyDE keybindings <br> </kbd></a>&ensp;&ensp; -->
-<a href=#window-management><kbd> <br> Window Management <br> </kbd></a>&ensp;&ensp;
-<a href=#misc><kbd> <br> Misc <br> </kbd></a>&ensp;&ensp;
-<a href=#launcher><kbd> <br> Launcher <br> </kbd></a>&ensp;&ensp;
-<a href=#hardware-controls><kbd> <br> Hardware Controls <br> </kbd></a>&ensp;&ensp;
-<a href=#utilities><kbd> <br> Utilities <br> </kbd></a>&ensp;&ensp;
-<a href="#theming-and-wallpaper"><kbd> <br> Theming and Wallpaper <br> </kbd></a>&ensp;&ensp;
-<a href=#workspaces><kbd> <br> Workspaces <br> </kbd></a>&ensp;&ensp;
+<a href=#window-management><kbd> <br> إدارة النوافذ <br> </kbd></a>&ensp;&ensp;
+<a href=#misc><kbd> <br> الموسيقي<br> </kbd></a>&ensp;&ensp;
+<a href=#launcher><kbd> <br> المشغل<br> </kbd></a>&ensp;&ensp;
+<a href=#hardware-controls><kbd> <br> أدوات التحكم بالأجهزة<br> </kbd></a>&ensp;&ensp;
+<a href=#utilities><kbd> <br> الأدوات المساعدة<br> </kbd></a>&ensp;&ensp;
+<a href="#theming-and-wallpaper"><kbd> <br> السمات والخلفيات <br> </kbd></a>&ensp;&ensp;
+<a href=#workspaces><kbd> <br>مساحة العمل<br> </kbd></a>&ensp;&ensp;
 
 </div><br><br>
 
