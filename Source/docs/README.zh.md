@@ -235,7 +235,7 @@ For more details, you can refer to [Hyde-cli - dots management wiki](https://git
 </div>
 
 <div align="right">
-  <sub>最后编辑: 27/02/2025<span id="last-edited"></span></sub>
+  <sub>最后编辑: 21/03/2025<span id="last-edited"></span></sub>
 </div>
 
 <a id="star_history"></a>

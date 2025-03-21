@@ -201,5 +201,5 @@ Voor meer informatie, bezoek [HyDE-Project/hyde-themes](https://github.com/HyDE-
 </div>
 
 <div align="right">
-  <sub>Laatst bewerkt op: 27/02/2025<span id="last-edited"></span></sub>
+  <sub>Laatst bewerkt op: 21/03/2025<span id="last-edited"></span></sub>
 </div>

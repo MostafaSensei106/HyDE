@@ -220,7 +220,7 @@ git pull origin master
 </div>
 
 <div align="right">
-  <sub>آخر تعديل في: 27/02/2025<span id="last-edited"></span></sub>
+  <sub>آخر تعديل في: 21/03/2025<span id="last-edited"></span></sub>
 </div>
 
 <a id="star_history"></a>

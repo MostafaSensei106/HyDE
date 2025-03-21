@@ -239,5 +239,5 @@ Weitere Informationen finden Sie unter [HyDE-Project/hyde-themes](https://github
 </div>
 
 <div align="right">
-  <sub>Zuletzt bearbeitet am: 27.02.2025<span id="last-edited"></span></sub>
+  <sub>Zuletzt bearbeitet am: 21.03.2025<span id="last-edited"></span></sub>
 </div>

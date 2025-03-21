@@ -228,7 +228,7 @@ Para obtener más información, visite [Temas HyDE](https://github.com/HyDE-Proj
 </div>
 
 <div align="right">
-  <sub>Última edición el: 27/02/2025<span id="last-edited"></span></sub>
+  <sub>Última edición el: 21/03/2025<span id="last-edited"></span></sub>
 </div>
 
 <a id="star_history"></a>

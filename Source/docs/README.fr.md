@@ -232,7 +232,7 @@ Pour plus d'informations, visitez [HyDE-Project/hyde-themes](https://github.com/
 </div>
 
 <div align="right">
-  <sub>Dernière modification : 01/03/2025<span id="last-edited"></span></sub>
+  <sub>Dernière modification : 21/03/2025<span id="last-edited"></span></sub>
 </div>
 
 <a id="star_history"></a>
