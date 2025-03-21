@@ -6,6 +6,7 @@
 
 ###### _<div align="right"><a id=-design-by-t2></a><sub>// design by t2</sub></div>_
 
+![hyde_banner](Source/assets/hyde_banner.png)
 
 <!--
 Multi-language README support
@@ -16,6 +17,7 @@ Multi-language README support
 [![nl](https://img.shields.io/badge/lang-nl-green.svg)](Source/docs/README.nl.md)
 [![中文](https://img.shields.io/badge/lang-中文-orange.svg)](Source/docs/README.zh.md)
 [![fr](https://img.shields.io/badge/lang-fr-blue.svg)](Source/docs/README.fr.md)
+[![ar](https://img.shields.io/badge/lang-AR-orange.svg)](Source/docs/README.ar.md)
 
 <div align="center">
 
