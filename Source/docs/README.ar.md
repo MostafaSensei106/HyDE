@@ -66,11 +66,11 @@ Multi-language README support
 تم تصميم نص التثبيت للعمل مع نظام [Arch Linux](https://wiki.archlinux.org/title/Arch_Linux) الأساسي، ولكنه **قد** يعمل على بعض [التوزيعات المستندة إلى Arch](https://wiki.archlinux.org/title/Arch-based_distributions). عند تثبيت HyDE مع [DE](https://wiki.archlinux.org/title/Desktop_environment)/[WM](https://wiki.archlinux.org/title/Window_manager) آخر، قد يحدث تعارض مع تخصيصاتك الحالية مثل [GTK](https://wiki.archlinux.org/title/GTK)/[Qt](https://wiki.archlinux.org/title/Qt)، [Shell](https://wiki.archlinux.org/title/Command-line_shell)، [SDDM](https://wiki.archlinux.org/title/SDDM)، [GRUB](https://wiki.archlinux.org/title/GRUB)، إلخ. ويكون ذلك على مسؤوليتك الخاصة.
 لدعم نظام NixOS، يتم صيانة مشروع منفصل @ [Hydenix](https://github.com/richen604/hydenix/tree/main).
 
-> [!مهم]
+> [!IMPORTANT]
 > سيقوم البرنامج النصي للتثبيت باكتشاف بطاقة NVIDIA تلقائيًا وتثبيت برامج تشغيل nvidia-dkms الخاصة بنواة النظام.
 > تأكد من أن بطاقة NVIDIA الخاصة بك تدعم برامج التشغيل dkms في القائمة المتوفرة [هنا](https://wiki.archlinux.org/title/NVIDIA).
 
-> [!تحذير]
+> [!CAUTION]
 > سيقوم البرنامج النصي بتغيير إعدادات `grub` أو `systemd-boot` لتمكين NVIDIA DRM.
 لتثبيت HyDE، قم بتنفيذ الأوامر التالية:
 ```shell
@@ -80,7 +80,7 @@ cd ~/HyDE/Scripts
 ./install.sh
 ```
 
-> [!نصيحة]
+> [!TIP]
 > يمكنك أيضًا إضافة أي تطبيقات أخرى ترغب في تثبيتها مع HyDE إلى ملف `Scripts/pkg_extra.lst` وتمرير الملف كمعامل لتثبيته كما يلي:
 >
 > ```shell
@@ -113,7 +113,7 @@ git pull origin master
 ./install.sh -r
 ```
 
-> [!مهم]
+> [!IMPORTANT]
 > لاحظ أنه سيتم الكتابة فوق أي إعدادات قمت بها إذا كانت مدرجة في `Scripts/restore_cfg.psv`.
 > ومع ذلك، يتم عمل نسخة احتياطية من جميع الإعدادات التي تم استبدالها ويمكن استعادتها من `~/.config/cfg_backups`.
 
@@ -155,7 +155,7 @@ git pull origin master
 
 </div>
 
-> [!نصيحة]
+> [!TIP]
 > يمكن للجميع، بما في ذلك أنت، إنشاء وصيانة ومشاركة سمات إضافية، وكلها يمكن تثبيتها باستخدام themepatcher!
 > لإنشاء سماتك المخصصة، يمكنك الرجوع إلى [دليل السمات](https://github.com/prasanthrangan/hyprdots/wiki/Theming).
 > إذا كنت ترغب في عرض سمات HyDE الخاصة بك أو تريد العثور على بعض السمات غير الرسمية، قم بزيارة [معرض HyDE](https://github.com/kRHYME7/hyde-gallery)!
