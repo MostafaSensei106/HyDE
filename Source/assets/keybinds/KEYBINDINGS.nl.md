@@ -12,13 +12,12 @@
 Multi-language KEYBINDINGS support
 -->
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](../../KEYBINDINGS.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](../../../KEYBINDINGS.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](KEYBINDINGS.es.md)
 [![de](https://img.shields.io/badge/lang-de-black.svg)](KEYBINDINGS.de.md)
 [![中文](https://img.shields.io/badge/lang-中文-orange.svg)](KEYBINDINGS.zh.md)
 [![fr](https://img.shields.io/badge/lang-fr-blue.svg)](KEYBINDINGS.fr.md)
 [![ar](https://img.shields.io/badge/lang-AR-orange.svg)](KEYBINDINGS.ar.md)
-
 
 <div align="center">
 
@@ -46,7 +45,8 @@ Multi-language KEYBINDINGS support
 
 Hier zijn alle HyDE-specifieke toetscombinaties opgesomd.
 
-> [!TIP] > <kbd>Super</kbd> + <kbd>/</kbd> toont de toetscombinaties.
+> [!TIP]
+> <kbd>Super</kbd> + <kbd>/</kbd> toont de toetscombinaties.
 
 <!-- ## <a id="fenster-verwaltung">Fenster Verwaltung</a> -->
 

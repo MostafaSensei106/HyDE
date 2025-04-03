@@ -12,13 +12,12 @@
 Multi-language KEYBINDINGS support
 -->
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](../../KEYBINDINGS.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](../../../KEYBINDINGS.md)
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](KEYBINDINGS.es.md)
 [![de](https://img.shields.io/badge/lang-de-black.svg)](KEYBINDINGS.de.md)
 [![nl](https://img.shields.io/badge/lang-nl-green.svg)](KEYBINDINGS.nl.md)
 [![fr](https://img.shields.io/badge/lang-fr-blue.svg)](KEYBINDINGS.fr.md)
 [![ar](https://img.shields.io/badge/lang-AR-orange.svg)](KEYBINDINGS.ar.md)
-
 
 <div align="center">
 
