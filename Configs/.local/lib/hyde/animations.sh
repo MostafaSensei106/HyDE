@@ -55,6 +55,11 @@ fi
 fn_select() {
     animation_items=$(find "$animations_dir" -name "*.conf" ! -name "disable.conf" ! -name "theme.conf" 2>/dev/null | sed 's/\.conf$//')
 
+    if [ -z "$animation_items" ]; then
+        notify-send -i "preferences-desktop-display" "Error" "No .conf files found in $animations_dir"
+        exit 1
+    fi
+
     # Set rofi scaling
     font_scale="${ROFI_ANIMATION_SCALE}"
     [[ "${font_scale}" =~ ^[0-9]+$ ]] || font_scale=${ROFI_SCALE:-10}
@@ -123,11 +128,10 @@ fn_update() {
 # See https://wiki.hyprland.org/Configuring/Animations/
 # HyDE Controlled content // DO NOT EDIT
 # Edit or add animations in the ./hypr/animations/ directory
-# and run the 'animations.sh select' command to update this file
+# and run the 'animations.sh --select' command to update this file 
 
 \$ANIMATION=${current_animation}
-\$ANIMATION_PATH=~/.config/hypr/animations/${current_animation}.conf
-
+\$ANIMATION_PATH=./animations/${current_animation}.conf
 EOF
     # cat "${animDir}/${current_animation}.conf" >>"${confDir}/hypr/animations.conf"
 }
