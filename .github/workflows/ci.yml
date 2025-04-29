@@ -38,6 +38,10 @@ jobs:
           # Create a PR body with the commit list and suggested merge date
           echo "PR_BODY<<EOF" >> $GITHUB_ENV
           echo "This is an automated PR to promote changes from \`dev\` to \`master\`." >> $GITHUB_ENV
+          echo "Please review and test before merging." >> $GITHUB_ENV
+          echo "" >> $GITHUB_ENV
+          echo "## For Testers" >> $GITHUB_ENV
+          echo "See [TESTING.md](./TESTING.md) for complete testing instructions." >> $GITHUB_ENV
           echo "" >> $GITHUB_ENV
           echo "## Suggested Merge Schedule" >> $GITHUB_ENV
           echo "According to our release policy, this PR is expected to be merged on: **$MERGE_DATE**" >> $GITHUB_ENV
@@ -72,7 +76,7 @@ jobs:
           script: |
             const { repo, owner } = context.repo;
             const prBranch = "automated-dev-to-master-branch";
-            const prTitle = "chore(rc):Promote dev changes to master"; 
+            const prTitle = "chore(dev):Promote `dev` to `master`";
             const prBody = process.env.PR_BODY;
 
             // Retry helper function
